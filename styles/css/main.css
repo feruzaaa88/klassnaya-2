@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Karla", "DM Serif Display";
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 1300;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+header {
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  margin-bottom: 100px;
+  border-bottom: 1px solid white;
+}
+
+header:hover {
+  border-bottom: 1px solid black;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 500px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-right: 200px;
+}
+
+.nav-item {
+  margin-left: 50px;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid black;
+}
+
+.nav-item-1 {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+
+.nav-item-1:hover {
+  border-bottom: 2px solid black;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #837D88;
+}
+
+.nav-link-1 {
+  text-decoration: none;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #2C2830;
+}
+
+.site-link {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Karla";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  background: #2C2830;
+  border: 1.5px solid #2C2830;
+  color: #FFFFFF;
+  padding: 5px 10px;
+}
+
+main {
+  background-color: #2D2641;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  width: 500px;
+  margin-left: 130px;
+  position: relative;
+}
+
+span {
+  border-bottom: 1 solid white;
+}
+
+.main-title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.main-text {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+.main-link {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Karla";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  background: #FFFFFF;
+  border: 1.5px solid #2C2830;
+  color: #2C2830;
+  padding: 5px 10px;
+  position: absolute;
+}
+
+.img-2 {
+  transform: translateY(80px);
+}/*# sourceMappingURL=main.css.map */
